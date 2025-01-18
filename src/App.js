@@ -24,7 +24,7 @@ function App() {
             <Contact/>
         </main>
         <Footer/>
-        <a className="back-to-top" href="#"><i className="fa fa-chevron-up"></i></a>
+        <a className="back-to-top" href="/"><i className="fa fa-chevron-up"></i></a>
     </>
   );
 }

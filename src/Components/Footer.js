@@ -39,11 +39,11 @@ function Footer() {
                     <div className="col-lg-5 col-md-6 footer-info">
                         <h4>Certifications</h4>
                         <p>
-                            <a href="https://u.magento.com/certification/directory/dev/id/1822900/" alt="" target="_blank" rel="noreferrer"><img
+                            <a href="https://u.magento.com/certification/directory/dev/id/1822900/" alt="pro dev" target="_blank" rel="noreferrer"><img
                                     src="img/pro_dev-l.png"/></a>
                             <strong>Aug 2020</strong>
                         </p>
-                        <p className="adobe"><a href="https://www.youracclaim.com/users/ravimule" target="_blank" rel="noreferrer"><img src="img/adobe_certified_expert_magento.png" /></a>
+                        <p className="adobe"><a href="https://www.youracclaim.com/users/ravimule" target="_blank" rel="noreferrer"><img src="img/adobe_certified_expert_magento.png" alt="adobe export logo"/></a>
                         </p>
                     </div>
                 </div>
