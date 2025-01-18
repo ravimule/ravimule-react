@@ -17,7 +17,7 @@ function Header() {
                 <li><a href="#services">Work Experience</a></li>
                 <li><a href="#facts">Facts</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
-                <li className="menu-has-children"><a href="#">Apps</a>
+                <li className="menu-has-children"><a href="/">Apps</a>
                     <ul>
                         <li><a href="app/ravi.apk"><i className="fa fa-android"></i> Android</a></li>
                         <li><a href="#footer"><i className="fa fa-apple"></i> Apple iOS</a></li>
