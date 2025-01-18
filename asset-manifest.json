@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ravimule-react/static/css/main.f855e6bc.css",
+    "main.js": "/ravimule-react/static/js/main.d54c8ba0.js",
+    "static/js/453.faa22372.chunk.js": "/ravimule-react/static/js/453.faa22372.chunk.js",
+    "index.html": "/ravimule-react/index.html",
+    "main.f855e6bc.css.map": "/ravimule-react/static/css/main.f855e6bc.css.map",
+    "main.d54c8ba0.js.map": "/ravimule-react/static/js/main.d54c8ba0.js.map",
+    "453.faa22372.chunk.js.map": "/ravimule-react/static/js/453.faa22372.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.d54c8ba0.js"
+  ]
+}
