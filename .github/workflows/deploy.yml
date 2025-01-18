@@ -16,7 +16,15 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 18  # Ensure the Node.js version matches your project
+        node-version: 18  # Ensure Node.js version matches your project
+
+    - name: Cache Node.js modules
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
 
     - name: Install Dependencies
       run: npm install
@@ -29,3 +37,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
+
+    - name: Add Babel Plugin for Private Property in Object
+      run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
