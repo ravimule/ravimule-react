@@ -32,7 +32,7 @@ function Contact() {
             <div className="form">
                 <div id="sendmessage">Your message has been sent. Thank you!</div>
                 <div id="errormessage">Something went wrong. Please try again.</div>
-                <form action="#" className="contactForm" method="post" role="form">
+                <form action="/" className="contactForm" method="post" role="form">
                     <div className="form-row">
                         <div className="form-group col-md-6">
                             <input className="form-control" data-msg="Please enter at least 4 chars" data-rule="minlen:4"
